@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            background-color: blue;
+        }
+
+        p.c1 {
+            color:red;
+        }
+
+        div.c1 {
+            color:yellow;
+        }
+
+        #a1 p {
+            color:fuchsia;
+        }
+
+        #a1 > p {
+             background-color: maroon;
+        }
+
+        .c3, .c4, .c5 {
+            color:red;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p class="c1">첫번쨰 p 태그</p>
+    <p class="c2">두번쨰 p 태그</p>
+    <div class="c1">첫번쨰 div 태그</div>
+    <div class="c2">첫번쨰 div 태그</div>
+
+    <div id="a1">
+        <div>
+            <p>id가 a1인 div 태그 내부의 div 태그 안의 p태그</p>
+        </div>
+        <p>div 태그 하위의 p태그</p>
+    </div>
+
+    <p class="c3">c3 class</p>
+    <p class="c4">c4 class</p>
+    <p class="c5">c5 class</p>
+
+</body>
+</html>
